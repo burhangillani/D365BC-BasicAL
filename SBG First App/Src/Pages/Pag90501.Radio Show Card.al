@@ -1,16 +1,15 @@
-page 90500 "SBG Radio Show List"
+page 90501 "SBG Radio Show Card"
 {
-    PageType = List;
+    PageType = Card;
     ApplicationArea = All;
-    UsageCategory = Lists;
+    UsageCategory = Documents;
     SourceTable = "SBG Radio Show";
-    CardPageId = "SBG Radio Show Card";
 
     layout
     {
         area(Content)
         {
-            repeater(Group)
+            group(General)
             {
                 field("No."; "No.") { ApplicationArea = Basic; }
                 field("Radio Show Type"; "Radio Show Type") { ApplicationArea = Basic; }

@@ -1,4 +1,4 @@
-table 90500 "EIE Radio Show"
+table 90500 "SBG Radio Show"
 {
     DataClassification = ToBeClassified;
 

@@ -1,4 +1,4 @@
-pageextension 90540 "SBG Social Media Card" extends "Customer Card"
+pageextension 90510 "SBG Social Media Card" extends "Customer Card"
 {
     layout
     {

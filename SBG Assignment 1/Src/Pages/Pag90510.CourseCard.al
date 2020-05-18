@@ -1,4 +1,4 @@
-page 90540 "SBG Course Card"
+page 90510 "SBG Course Card"
 {
     PageType = Card;
     ApplicationArea = All;

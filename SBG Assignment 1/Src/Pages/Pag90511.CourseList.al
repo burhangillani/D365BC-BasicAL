@@ -1,4 +1,4 @@
-page 90541 "SBG Course List"
+page 90511 "SBG Course List"
 {
     PageType = List;
     ApplicationArea = All;

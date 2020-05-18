@@ -18,5 +18,23 @@ codeunit 90552 "SBG AL Methods"
         Clear(customer);
         customer.GetBySystemId('');
         Message('Customer No. = %1 and Customer Name = %2', customer."No.", customer.Name);
+
+    end;
+
+    procedure FindFirst()
+    var
+        customer: Record Customer;
+    begin
+        customer.FindFirst();
+        Message('%1', customer);
+    end;
+
+    procedure SetCurrentKey()
+    var
+        customer: Record Customer;
+    begin
+        customer.SetCurrentKey(City);
+        customer.FindFirst();
+        Message('%1', customer);
     end;
 }

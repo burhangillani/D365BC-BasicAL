@@ -118,11 +118,30 @@ page 90550 "Setup page"
                 begin
                     ALmethods.GetBySystemID();
                 end;
-
             }
+            action("Find First")
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    ALmethods: Codeunit "SBG AL Methods";
+                begin
+                    ALmethods.FindFirst();
+                end;
+            }
+            action("SetCurrentKey")
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    ALmethods: Codeunit "SBG AL Methods";
+                begin
+                    ALmethods.SetCurrentKey();
+                end;
+            }
+
         }
     }
-
-    var
-        myInt: Integer;
 }

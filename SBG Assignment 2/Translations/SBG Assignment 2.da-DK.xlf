@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="SBG Assignment 2">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2073930987 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Indgangsnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SBG Customer Overview - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2073930987 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Kundenr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SBG Customer Overview - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2073930987 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Kundenavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SBG Customer Overview - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2073930987 - Field 2720485332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Code</source>
+          <target>Kildekode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SBG Customer Overview - Field Source Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2073930987 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Beløb</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SBG Customer Overview - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2073930987 - Field 2578636657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Run Date</source>
+          <target>Sidste kørselsdato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SBG Customer Overview - Field LastRunDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2313938774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SBG Course Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SBG Data Type Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1588096821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer OverView</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SBG Customer OverView List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1588096821 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SBG Customer OverView List - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1555537025 - Action 360998715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Update Credit Limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SBG Credit Limit Ext - Action UpdateCreditLimit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1555537025 - NamedType 1621471133" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Are you sure that you want to set the %1 to %1?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SBG Credit Limit Ext - NamedType Text90520</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1555537025 - NamedType 2259167750" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>The credit limit was rounded to %1 to comply with company policies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SBG Credit Limit Ext - NamedType Text90521</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1555537025 - NamedType 346077899" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>The Credit limit is up-to-date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SBG Credit Limit Ext - NamedType Text90522</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

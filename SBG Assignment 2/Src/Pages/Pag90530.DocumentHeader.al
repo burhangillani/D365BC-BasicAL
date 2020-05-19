@@ -1,7 +1,7 @@
 page 90530 "SBG Document Line Subpage"
 {
     PageType = ListPart;
-    SourceTable = "Document Line";
+    SourceTable = "SBG Document Line";
     AutoSplitKey = true;
     DelayedInsert = true;
 

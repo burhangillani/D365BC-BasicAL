@@ -1,9 +1,9 @@
-page 90529 "SBG Document Header"
+page 90529 "SBG Document"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Documents;
-    SourceTable = "Document Header";
+    SourceTable = "SBG Document Header";
 
     layout
     {

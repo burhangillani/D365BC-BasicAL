@@ -1,4 +1,4 @@
-table 90524 "Document Header"
+table 90524 "SBG Document Header"
 {
 
     fields
@@ -44,8 +44,8 @@ table 90524 "Document Header"
     var
         ExampleSetup: Record "SBG Example Setup";
         NoSeriesManagement: Codeunit 396;
-        DocumentHeader: Record "Document Header";
-        DocumentLine: Record "Document Line";
+        DocumentHeader: Record "SBG Document Header";
+        DocumentLine: Record "SBG Document Line";
 
     trigger OnInsert()
     begin
@@ -72,9 +72,9 @@ table 90524 "Document Header"
 
     end;
 
-    procedure AssistEdit(OldDocumentHeader: Record "Document Header"): Boolean;
+    procedure AssistEdit(OldDocumentHeader: Record "SBG Document Header"): Boolean;
     var
-        DocumentHeader: Record "Document Header";
+        DocumentHeader: Record "SBG Document Header";
     begin
         with DocumentHeader do begin
             DocumentHeader := Rec;

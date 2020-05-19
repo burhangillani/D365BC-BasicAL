@@ -3,9 +3,9 @@ page 90531 "SBG Document List"
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "Document Header";
+    SourceTable = "SBG Document Header";
     Editable = false;
-    CardPageId = "SBG Document Header";
+    CardPageId = "SBG Document";
 
     layout
     {

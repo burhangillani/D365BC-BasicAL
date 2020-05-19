@@ -1,4 +1,4 @@
-table 90525 "Document Line"
+table 90525 "SBG Document Line"
 {
 
     fields

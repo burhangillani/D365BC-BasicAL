@@ -1,8 +1,8 @@
 {
   "id": "7062b283-c22e-4a9d-8e55-41975a979881",
   "name": "Assignment 3",
-  "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "publisher": "EIE",
+  "version": "1.16.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -28,11 +28,11 @@
   "platform": "16.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 90500,
+      "to": 90599
     }
   ],
-  "contextSensitiveHelpUrl": "https://Assignment3.com/help/",
-  "showMyCode": true,
+  "contextSensitiveHelpUrl": "https://www.embrace-it.com/",
+  "showMyCode": false,
   "runtime": "5.0"
 }

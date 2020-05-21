@@ -141,6 +141,17 @@ page 90550 "Setup page"
                     ALmethods.SetCurrentKey();
                 end;
             }
+            action("Dictionary Collection")
+            {
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    ALmethods: Codeunit "SBG Repetitive Statements";
+                begin
+                    ALmethods.DictionayCollection();
+                end;
+            }
 
         }
     }

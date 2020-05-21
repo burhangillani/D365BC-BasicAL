@@ -72,4 +72,22 @@ codeunit 90551 "SBG Repetitive Statements"
 
     end;
 
+    procedure DictionayCollection()
+    var
+        CustomerNames: List of [Text];
+        CustomerNames2: List of [Text];
+        CountriesCode: Dictionary of [Code[20], List of [Text]];
+    begin
+        CustomerNames.Add('Ali');
+        CustomerNames.Add('zubi');
+        Message(CustomerNames.Get(2));
+
+        CustomerNames2.Add('Jack');
+        CustomerNames2.Add('Peter');
+        CountriesCode.Add('Uk', CustomerNames);
+        CountriesCode.Add('US', CustomerNames2);
+
+        Message(CountriesCode.Get('US').Get(2));
+        //it will return Peter.
+    end;
 }

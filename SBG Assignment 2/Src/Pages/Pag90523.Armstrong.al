@@ -25,10 +25,11 @@ page 90523 "SBG Armstrong Card"
             if IntResult = IntL then
                 IntList.Add(IntResult);
             Clear(IntResult);
-            foreach IntL in IntList do
-                MagicNumbers += Format(IntL) + '\';
-            Message(MagicNumbers);
         end;
+        foreach IntL in IntList do
+            MagicNumbers += Format(IntL) + '\';
+        Message(MagicNumbers);
+
     end;
 
 

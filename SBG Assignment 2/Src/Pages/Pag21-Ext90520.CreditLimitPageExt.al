@@ -11,6 +11,7 @@ pageextension 90520 "SBG Credit Limit Ext" extends "Customer Card"
                 PromotedCategory = Process;
                 PromotedIsBig = true;
                 Image = CalculateCost;
+                ApplicationArea = All;
                 trigger OnAction()
                 begin
                     CallUpdateCreditLimit();

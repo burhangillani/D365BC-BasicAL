@@ -11,6 +11,7 @@ pageextension 90540 "SBG Item Card Ext" extends "Item Card"
         {
             action(ImportItemPicture)
             {
+                ApplicationArea = All;
                 Caption = 'Import Item Picture';
                 trigger OnAction()
                 var
@@ -21,6 +22,7 @@ pageextension 90540 "SBG Item Card Ext" extends "Item Card"
             }
             action(ExportItemPicture)
             {
+                ApplicationArea = All;
                 Caption = 'Export Item Picture';
                 trigger OnAction()
                 var

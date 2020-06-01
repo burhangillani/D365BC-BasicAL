@@ -7,7 +7,7 @@ pageextension 90540 "SBG Item Card Ext" extends "Item Card"
 
     actions
     {
-        addafter(Functions)
+        addlast(processing)
         {
             action(ImportItemPicture)
             {
@@ -31,7 +31,4 @@ pageextension 90540 "SBG Item Card Ext" extends "Item Card"
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

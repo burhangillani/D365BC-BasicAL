@@ -6,8 +6,7 @@ query 90540 "SBG Top 10 Customer Revenue"
 
     elements
     {
-        dataitem(Customer;
-        Customer)
+        dataitem(Customer; Customer)
         {
             column(No_; "No.")
             {

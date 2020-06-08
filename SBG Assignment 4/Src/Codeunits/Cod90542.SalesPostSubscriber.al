@@ -5,6 +5,11 @@ codeunit 90542 "SBG Sales Post Mngt."
 
     end;
 
-    var
-        myInt: Integer;
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Sales-Post", 'OnAfterCheckSalesDoc', '', true, true)]
+    local procedure MyProcedure(CommitIsSuppressed: Boolean; var SalesHeader: Record "Sales Header")
+    begin
+        SalesHeader.TestField("My New Field");
+    end;
+
+
 }
